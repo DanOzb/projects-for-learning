@@ -1,0 +1,28 @@
+:root{
+    --header: #045404;
+}
+
+* {
+    /*
+    border: 1px solid;
+    */
+}
+body{
+    height: calc(100vh - 1em);
+    width: calc(100vw - 1em);    
+}
+header{
+    height: 10%;
+    background-color: var(--header);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#logo{
+    justify-content: left;
+    margin-right: auto;
+}
+.nav{
+    justify-content: right;
+    margin: 1em;
+}
